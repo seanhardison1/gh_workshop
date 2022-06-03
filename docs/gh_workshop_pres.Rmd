@@ -48,6 +48,8 @@ knitr::include_graphics("images/progit.PNG")
 
 ]
 
+https://happygitwithr.com/
+
 .footnote[
 Chacon, Scott, and Ben Straub. Pro git. Apress, 2014.
 ]
@@ -604,6 +606,13 @@ knitr::include_graphics("images/gh_pages.png")
 
 * Knit the document to .html, stage, commit, and push
 
-* Any HTML files will render as a Pages website
+* Any HTML files will render as a Pages website:
 
 
+  .remark-inline-code[
+  https://[username].github.io/[repository_name]/[filename.html]
+  ]
+  
+  .remark-inline-code[
+  https://seanhardison1.github.io/gh_workshop/gh_workshop_pres.html
+  ]

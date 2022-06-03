@@ -19,7 +19,6 @@ output:
 
 ```{r setup, echo = F}
 image.dir <- "images"
-r.dir <- here::here("R")
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = F,
@@ -44,7 +43,7 @@ knitr::opts_chunk$set(echo = F,
 **Source material**
 
 ```{r progit, out.width = "80%", fig.align = "center"}
-knitr::include_graphics(file.path(image.dir, "progit.png"))
+knitr::include_graphics("images/progit.png")
 ```
 
 ]
@@ -601,7 +600,7 @@ knitr::include_graphics("images/gh_pages.png")
 
 ## Sharing your work through Github
 
-* Open an Rmarkdown document and save it to the repository
+* Open an Rmarkdown document and save it to the repository  
 
 * Knit the document to .html, stage, commit, and push
 
